@@ -6,7 +6,7 @@ Nifty Projects - because simple solutions are hard to find!
 
 ## Description
 
-t-trex for Raspberry PI is based on the Sunfounder Remote Control Crawling Robot by panerqiang@sunfounder.com, which was the main starting point of the Python code for this project. Especially the calculations related to kinematics of the legs was very helpful. Regis Hsu on his turn created an amazing 3D printed Quadruped frame which was also based on the Sunfounder project. t-trex is fundamentally built on the work of these two projects to jumpstart and extend with new features. The code written in C was ported to Python and fully refactored, because this programming language is focussed more on the ease of development. So easy to step in for beginners. And when Python is not fast enough (like compiled C code is), it can be combined with the low level C-language. Python is also very popular in the AI community and embedded solutions, resulting in massive amount of libraries to your disposal. Last but not least, Python is also very well supported by the Raspberry Pi ecosystem. 
+t-trex for Raspberry Pi is based on the Sunfounder Remote Control Crawling Robot by panerqiang@sunfounder.com, which was the main starting point of the Python code for this project. Especially the calculations related to kinematics of the legs was very helpful. Regis Hsu on his turn created an amazing 3D printed Quadruped frame which was also based on the Sunfounder project. t-trex is fundamentally built on the work of these two projects to jumpstart and extend with new features. The code written in C was ported to Python and fully refactored, because this programming language is focussed more on the ease of development. So easy to step in for beginners. And when Python is not fast enough (like compiled C code is), it can be combined with the low level C-language. Python is also very popular in the AI community and embedded solutions, resulting in massive amount of libraries to your disposal. Last but not least, Python is also very well supported by the Raspberry Pi ecosystem. 
 
 ## Features
 - Fully Python 3 compatible
@@ -14,13 +14,13 @@ t-trex for Raspberry PI is based on the Sunfounder Remote Control Crawling Robot
 - Remote SSH over Wifi support
 
 - PS4 Controller support (python-evdev)
-    * Gait Control
+    * Crawling Gait Control
     * Speed up/down movements
     * Graceful Quit Program Hard Shutdown (mode 1 soft shutdown)
     * Rumble support
     * System report (mode 1 default stance)
 
-- Different Gaits implemented
+- Different Crwaling Gaits implemented
     * Forward 
     * Backward
     * Left
@@ -80,6 +80,9 @@ sudo apt-get install pijuice-base
 # Servo driver library
 git clone https://github.com/abelectronicsuk/ABElectronics_Python_Libraries.git
 sudo python3 setup.py install
+
+# PS4 Controller
+sudo apt-get install joystick
 ```
 
 ## Additional Commands
@@ -105,5 +108,37 @@ Host keepsdroppingme.com
    ServerAliveInterval 10
 
 For killing it when it gets hang up, you can use the ssh escape character: ~.
-'''
+
+# Connect to bluetooth controller
+sudo bluetoothctl
+agent on
+discoverable on
+pairable on
+agent on
+default-agent
+
+Scan on
+Pair <device id>
+Trust <device id>
+Connect <device id>
+
+*if not connecting, remove first!*
+
+# evdev testing
+python3 /usr/local/lib/python3.9/dist-packages/evdev/evtest.py
+Or
+python3 -m evdev.evtest
+
+# I2C commands
+*change speed*
+sudo nano /boot/config.txt
+dtparam=i2c_arm=on,i2c_arm_baudrate=200000
+
+# check current speed
+Huidige i2c kloksnelheid: sudo cat /sys/kernel/debug/clk/clk_summary
+
+# check outside range
+i2cdetect -y 1
+i2cdetect -y -a 1 # detect outside range
+```
 
