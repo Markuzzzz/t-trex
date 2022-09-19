@@ -14,30 +14,30 @@ t-trex for Raspberry PI is based on the Sunfounder Remote Control Crawling Robot
 - Remote SSH over Wifi support
 
 - PS4 Controller support (python-evdev)
-    Gait Control
-    Speed up/down movements
-    Graceful Quit Program Hard Shutdown (mode 1 soft shutdown)
-    Rumble support
-    System report (mode 1 default stance)
+    * Gait Control
+    * Speed up/down movements
+    * Graceful Quit Program Hard Shutdown (mode 1 soft shutdown)
+    * Rumble support
+    * System report (mode 1 default stance)
 
 - Different Gaits implemented
-    Forward 
-    Backward
-    Left
-    Right
-    Stand (mode 1 head up)
-    Sit (mode 1 head down)
-    Head up/down
+    * Forward 
+    * Backward
+    * Left
+    * Right
+    * Stand (mode 1 head up)
+    * Sit (mode 1 head down)
+    * Head up/down
 
 - PiJuice
-    Monitoring by PiJuice for save shutdown on low battery voltage
-    custom led usage for simple messages
-    custom switch support for shutting down RPi OS
+    * Monitoring by PiJuice for save shutdown on low battery voltage
+    * custom led usage for simple messages
+    * custom switch support for shutting down RPi OS
 
 - Systemd bootable service (sequence)
-    Logging to System Journal
-    Automatic reconnect at startup
-    Graceful Shutdown sequence on exception
+    * Logging to System Journal
+    * Automatic reconnect at startup
+    * Graceful Shutdown sequence on exception
 
 To do
 - Interruptable actions
