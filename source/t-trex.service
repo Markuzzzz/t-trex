@@ -1,0 +1,14 @@
+[Unit]
+Description=t-trex entry point
+After=bluetooth.target
+Requires=bluetooth.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 "{path-to-file}/t_trex.py"
+Restart = no
+KillMode = process
+SendSIGHUP = no
+
+[Install]
+WantedBy=multi-user.target
