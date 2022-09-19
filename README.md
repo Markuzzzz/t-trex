@@ -122,7 +122,7 @@ Pair <device id>
 Trust <device id>
 Connect <device id>
 
-*if not connecting, remove first!*
+if not connecting, remove first!
 
 # evdev testing
 python3 /usr/local/lib/python3.9/dist-packages/evdev/evtest.py
@@ -130,7 +130,7 @@ Or
 python3 -m evdev.evtest
 
 # I2C commands
-*change speed*
+# change speed
 sudo nano /boot/config.txt
 dtparam=i2c_arm=on,i2c_arm_baudrate=200000
 
