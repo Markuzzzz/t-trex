@@ -52,9 +52,13 @@ At the heart of this robot runs a RPi Zero W 2 as main cpu. Its controls 12 SG90
 [Raspberry Pi Zero 2 W](https://www.raspberrypi.com/products/raspberry-pi-zero-2-w/)
 
 [Servo PWM Driver Pi Zero](https://www.abelectronics.co.uk/p/72/servo-pwm-pi-zero)
+
 [SG90 Servo](https://www.kiwi-electronics.com/nl/micro-servo-sg90-1-8kg-cm-9g-3018)
+
 [Pi-Juice](https://github.com/PiSupply/PiJuice)
+
 [2S LiPo 1300 mAh](https://www.velleman.eu/products/view/?id=434062)
+
 [1S LiPo 500 mAh](https://uk.pi-supply.com/products/lithium-ion-polymer-battery-3-7v-500mah)
 
 ## Installation
