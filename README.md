@@ -50,6 +50,7 @@ At the heart of this robot runs a RPi Zero W 2 as main cpu. Its controls 12 SG90
 
 ## Components
 [Raspberry Pi Zero 2 W](https://www.raspberrypi.com/products/raspberry-pi-zero-2-w/)
+
 [Servo PWM Driver Pi Zero](https://www.abelectronics.co.uk/p/72/servo-pwm-pi-zero)
 [SG90 Servo](https://www.kiwi-electronics.com/nl/micro-servo-sg90-1-8kg-cm-9g-3018)
 [Pi-Juice](https://github.com/PiSupply/PiJuice)
