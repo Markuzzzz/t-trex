@@ -17,6 +17,23 @@ https://www.abelectronics.co.uk/p/72/servo-pwm-pi-zero
 https://github.com/PiSupply/PiJuice
 https://www.velleman.eu/products/view/?id=434062
 
+## Installation
+```bash
+# Evdev 
+sudo apt install python3-dev && sudo apt install python3-pip && sudo pip install evdev
+
+# Python3 setup
+sudo apt install -y python3-dev
+sudo apt install -y python3-smbus i2c-tools
+sudo apt install -y python3-pil
+sudo apt install -y python3-pip
+sudo apt install -y python3-setuptools
+sudo apt install -y python3-rpi.gpio
+
+# Pijuice Zero
+sudo apt-get install pijuice-base
+```
+
 ## Features
 - Fully Python 3 compatible
 
