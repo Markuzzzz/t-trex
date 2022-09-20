@@ -70,7 +70,7 @@ At the heart of this robot runs a RPi Zero W 2 as main cpu. Its controls 12 SG90
 The body is based on the work of [Regis Hsu](https://www.instructables.com/DIY-Spider-RobotQuad-robot-Quadruped/). To fit my chosen LiPo batteries, I altered his model. I will upload the design to this repository soon! 
 
 ## Installation
-[Setup Pi Zero W Headless Wifi](https://desertbot.io/blog/setup-pi-zero-w-headless-wifi) - how to setup a headless RPi
+[Setup Pi Zero W Headless Wifi](https://desertbot.io/blog/setup-pi-zero-w-headless-wifi) - how to setup a headless RPi, this project uses Raspbian OS Lite Legacy 2022-01-28
 
 ```bash
 # Python3 setup
