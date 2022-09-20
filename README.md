@@ -1,6 +1,8 @@
 # t-trex
 Python based quadruped robot powered by Raspberry Pi Zero 2 W
 
+![image](https://user-images.githubusercontent.com/20856694/191191070-563068d9-3d7c-4c81-b15b-d3509496f1d6.png)
+
 # nifty-inspirations
 Nifty Projects - because simple solutions are hard to find!
 
