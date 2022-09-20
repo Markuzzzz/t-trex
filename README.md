@@ -48,8 +48,12 @@ To do
 - Advanced movements using analog joysticks
 - AI Supervised Neural Net
 
-# Video's
+# Video's of the different build phases
+Phase 1: Re-creating Regis Hsu quadruped setup with the Arduino code.
 https://user-images.githubusercontent.com/20856694/191291677-cc345581-42a2-487b-9b4e-a81b1ac22a6e.mov
+
+Phase 2: Redesigned model and converted Arduino code to Python
+#todo add
 
 ## Hardware Configuration
 At the heart of this robot runs a RPi Zero W 2 as main cpu. Its controls 12 SG90 micro servo’s distributed over 4 legs using a I2C Servo PWM Pi (made by ABElectronics). To drive the power hungry micro servo’s, the power system consists of two separate power supplies to prevent voltage dips. One dedicated 1S LiPo @ 500 mAh for the RPi, fully managed by a PiJuice module on top of the RPi. Which is also able to charge the LiPo in place by USB or solar power source. The micro servo’s have their own power supply using a 2S LiPo @ 1300 mAh through a 5V buck converter for heavy duty action.
