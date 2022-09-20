@@ -50,6 +50,7 @@ To do
 
 # Video's of the different build phases
 Phase 1: Re-creating Regis Hsu quadruped setup with the Arduino code.
+
 https://user-images.githubusercontent.com/20856694/191291677-cc345581-42a2-487b-9b4e-a81b1ac22a6e.mov
 
 Phase 2: Redesigned model and converted Arduino code to Python
