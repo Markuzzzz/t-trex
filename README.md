@@ -109,7 +109,9 @@ Sudo nano ~/.ssh/config
 Host keepsdroppingme.com
    ServerAliveInterval 10
 '''
+
 ***For killing it when it gets hang up, you can use the ssh escape character: ~.***
+
 '''bash
 # Connect to bluetooth controller
 sudo bluetoothctl
