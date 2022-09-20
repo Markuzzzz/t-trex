@@ -17,7 +17,7 @@ More to come soon as I am uploading y resources to github!
 
 - Remote SSH over Wifi support
 
-- PS4 Controller support (python-evdev)
+- PS4 Controller support ([python-evdev](https://python-evdev.readthedocs.io/en/latest/))
     * Crawling Gait Control
     * Speed up/down movements
     * Graceful Quit Program Hard Shutdown (mode 1 soft shutdown)
@@ -34,9 +34,9 @@ More to come soon as I am uploading y resources to github!
     * Head up/down
 
 - PiJuice Zero Hat
-    * Monitoring by PiJuice for save shutdown on low battery voltage
+    * Monitoring by PiJuice Zero for save shutdown on low battery voltage
     * custom led usage for simple messages
-    * custom switch support for shutting down RPi OS
+    * custom switch support for shutting down RPi OS 
 
 - Systemd bootable service (sequence)
     * Logging to System Journal
