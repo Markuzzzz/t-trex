@@ -124,7 +124,6 @@ sudo bluetoothctl
 agent on
 discoverable on
 pairable on
-agent on
 default-agent
 
 Scan on
