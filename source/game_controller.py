@@ -120,9 +120,7 @@ class Ps4GameController():
 
     def connect(self):
         '''
-            This function connects the controller first controller found. It should be a PS4 controller.
-
-            supported_profiles:
+            This function connects the first controller found. It should be a PS4 controller.
         '''
         while(not self._connected and self._retries < Ps4GameController.RETRIES):
             try:
@@ -191,7 +189,7 @@ class Ps4GameController():
     def get_event(self):
         '''
             This function reads event report from the controller. It is the event handled in a different thread 
-            than the main thread
+            than the main thread.
         '''
         try:
             for event in self._device.read_loop():
