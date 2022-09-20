@@ -31,7 +31,7 @@ More to come soon as I am uploading y resources to github!
     * Sit (mode 1 head down)
     * Head up/down
 
-- PiJuice
+- PiJuice Zero Hat
     * Monitoring by PiJuice for save shutdown on low battery voltage
     * custom led usage for simple messages
     * custom switch support for shutting down RPi OS
@@ -57,7 +57,7 @@ At the heart of this robot runs a RPi Zero W 2 as main cpu. Its controls 12 SG90
 
 [SG90 Servo](https://www.kiwi-electronics.com/nl/micro-servo-sg90-1-8kg-cm-9g-3018)
 
-[Pi-Juice](https://github.com/PiSupply/PiJuice)
+[Pi-Juice Zero Hat](https://github.com/PiSupply/PiJuice)
 
 [2S LiPo 1300 mAh](https://www.velleman.eu/products/view/?id=434062)
 
@@ -131,15 +131,15 @@ python3 /usr/local/lib/python3.9/dist-packages/evdev/evtest.py
 Or
 python3 -m evdev.evtest
 
-# I2C commands
+# i2c commands
 # change speed
 sudo nano /boot/config.txt
 dtparam=i2c_arm=on,i2c_arm_baudrate=200000
 
-# check current speed
-Huidige i2c kloksnelheid: sudo cat /sys/kernel/debug/clk/clk_summary
+# check current clock speed
+sudo cat /sys/kernel/debug/clk/clk_summary
 
-# check outside range
+# check i2c address layout
 i2cdetect -y 1
 i2cdetect -y -a 1 # detect outside range
 ```
