@@ -48,6 +48,9 @@ To do
 - Advanced movements using analog joysticks
 - AI Supervised Neural Net
 
+# Video's
+https://user-images.githubusercontent.com/20856694/191290396-77e09d8b-22e8-4015-b1b8-483473e62f0d.mov
+
 ## Hardware Configuration
 At the heart of this robot runs a RPi Zero W 2 as main cpu. Its controls 12 SG90 micro servo’s distributed over 4 legs using a I2C Servo PWM Pi (made by ABElectronics). To drive the power hungry micro servo’s, the power system consists of two separate power supplies to prevent voltage dips. One dedicated 1S LiPo @ 500 mAh for the RPi, fully managed by a PiJuice module on top of the RPi. Which is also able to charge the LiPo in place by USB or solar power source. The micro servo’s have their own power supply using a 2S LiPo @ 1300 mAh through a 5V buck converter for heavy duty action.
 
