@@ -52,19 +52,19 @@ To do
 At the heart of this robot runs a RPi Zero W 2 as main cpu. Its controls 12 SG90 micro servo’s distributed over 4 legs using a I2C Servo PWM Pi (made by ABElectronics). To drive the power hungry micro servo’s, the power system consists of two separate power supplies to prevent voltage dips. One dedicated 1S LiPo @ 500 mAh for the RPi, fully managed by a PiJuice module on top of the RPi. Which is also able to charge the LiPo in place by USB or solar power source. The micro servo’s have their own power supply using a 2S LiPo @ 1300 mAh through a 5V buck converter for heavy duty action.
 
 ## Components
-[Raspberry Pi Zero 2 W](https://www.raspberrypi.com/products/raspberry-pi-zero-2-w/)
+[Raspberry Pi Zero 2 W](https://www.raspberrypi.com/products/raspberry-pi-zero-2-w/) - the heart of the quadruped robot
 
-[Servo PWM Driver Pi Zero](https://www.abelectronics.co.uk/p/72/servo-pwm-pi-zero)
+[Servo PWM Driver Pi Zero](https://www.abelectronics.co.uk/p/72/servo-pwm-pi-zero) - Servo driver for all 12 servo's
 
-[SG90 Servo](https://www.kiwi-electronics.com/nl/micro-servo-sg90-1-8kg-cm-9g-3018)
+[SG90 Servo](https://www.kiwi-electronics.com/nl/micro-servo-sg90-1-8kg-cm-9g-3018) - Servo type used
 
-[UBEC DC/DC Step-Down Buck Converter - 5V/3A](https://www.kiwi-electronics.com/nl/ubec-dc-dc-step-down-buck-converter-5v-3a-output-9976)
+[UBEC DC/DC Step-Down Buck Converter - 5V/3A](https://www.kiwi-electronics.com/nl/ubec-dc-dc-step-down-buck-converter-5v-3a-output-9976) - stepping down 2S 7.8V to 5V converter used for the 12 servo's and servo driver
 
-[Pi-Juice Zero Hat](https://github.com/PiSupply/PiJuice)
+[Pi-Juice Zero Hat](https://github.com/PiSupply/PiJuice) - Uninterruptable Power Supply (UPS) for the raspberry pi only, to ensure correct execution
 
-[2S LiPo 1300 mAh](https://www.velleman.eu/products/view/?id=434062)
+[2S LiPo 1300 mAh](https://www.velleman.eu/products/view/?id=434062) - Battery system used for servo system
 
-[1S LiPo 500 mAh](https://uk.pi-supply.com/products/lithium-ion-polymer-battery-3-7v-500mah)
+[1S LiPo 500 mAh](https://uk.pi-supply.com/products/lithium-ion-polymer-battery-3-7v-500mah) - Battery system used for PiJuice and Raspberry Pi Zero 2 W
 
 ## Body Framework
 The body is based on the work of [Regis Hsu](https://www.instructables.com/DIY-Spider-RobotQuad-robot-Quadruped/). To fit my chosen LiPo batteries, I altered his model. I will upload the design to this repository soon! 
