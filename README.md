@@ -71,7 +71,7 @@ The body is based on the work of [Regis Hsu](https://www.instructables.com/DIY-S
 
 ## Installation
 ```bash
-# [Setup Pi Zero W Headless Wifi](https://desertbot.io/blog/setup-pi-zero-w-headless-wifi) - how to setup a headless RPi
+[Setup Pi Zero W Headless Wifi](https://desertbot.io/blog/setup-pi-zero-w-headless-wifi) - how to setup a headless RPi
 
 # Python3 setup
 sudo apt install -y python3-dev
