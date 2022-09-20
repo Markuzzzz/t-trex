@@ -75,7 +75,7 @@ At the heart of this robot runs a RPi Zero W 2 as main cpu. Its controls 12 SG90
 [1S LiPo 500 mAh](https://uk.pi-supply.com/products/lithium-ion-polymer-battery-3-7v-500mah) - Battery system used for PiJuice and Raspberry Pi Zero 2 W
 
 ## Body Framework
-The body is based on the work of [Regis Hsu](https://www.instructables.com/DIY-Spider-RobotQuad-robot-Quadruped/). To fit my chosen LiPo batteries, I altered his model. I will upload the design to this repository soon! 
+The body is based on the work of [Regis Hsu](https://www.instructables.com/DIY-Spider-RobotQuad-robot-Quadruped/). To fit my chosen LiPo batteries, I altered his model. This is added to the design models.
 
 ## Installation
 [Setup Pi Zero 2 W]([https://desertbot.io/blog/setup-pi-zero-w-headless-wifi](https://desertbot.io/blog/headless-raspberry-pi-zero-w-2-ssh-wifi-setup-mac-windows-10-steps)) - how to setup a headless RPi, this project uses Raspbian OS Lite Legacy 2022-01-28
