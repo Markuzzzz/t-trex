@@ -51,9 +51,6 @@ To do
 ## Hardware Configuration
 At the heart of this robot runs a RPi Zero W 2 as main cpu. Its controls 12 SG90 micro servo’s distributed over 4 legs using a I2C Servo PWM Pi (made by ABElectronics). To drive the power hungry micro servo’s, the power system consists of two separate power supplies to prevent voltage dips. One dedicated 1S LiPo @ 500 mAh for the RPi, fully managed by a PiJuice module on top of the RPi. Which is also able to charge the LiPo in place by USB or solar power source. The micro servo’s have their own power supply using a 2S LiPo @ 1300 mAh through a 5V buck converter for heavy duty action.
 
-## Body Framework
-The body is based on the work of [Regis Hsu](https://www.instructables.com/DIY-Spider-RobotQuad-robot-Quadruped/). To fit my chosen LiPo batteries, I altered his model. I will upload the design to this repository soon! 
-
 ## Components
 [Raspberry Pi Zero 2 W](https://www.raspberrypi.com/products/raspberry-pi-zero-2-w/)
 
@@ -66,6 +63,9 @@ The body is based on the work of [Regis Hsu](https://www.instructables.com/DIY-S
 [2S LiPo 1300 mAh](https://www.velleman.eu/products/view/?id=434062)
 
 [1S LiPo 500 mAh](https://uk.pi-supply.com/products/lithium-ion-polymer-battery-3-7v-500mah)
+
+## Body Framework
+The body is based on the work of [Regis Hsu](https://www.instructables.com/DIY-Spider-RobotQuad-robot-Quadruped/). To fit my chosen LiPo batteries, I altered his model. I will upload the design to this repository soon! 
 
 ## Installation
 ```bash
