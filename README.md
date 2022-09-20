@@ -58,7 +58,7 @@ At the heart of this robot runs a RPi Zero W 2 as main cpu. Its controls 12 SG90
 
 [SG90 Servo](https://www.kiwi-electronics.com/nl/micro-servo-sg90-1-8kg-cm-9g-3018) - Servo type used
 
-[UBEC DC/DC Step-Down Buck Converter - 5V/3A](https://www.kiwi-electronics.com/nl/ubec-dc-dc-step-down-buck-converter-5v-3a-output-9976) - stepping down 2S 7.8V to 5V converter used for the 12 servo's and servo driver
+[UBEC DC/DC Step-Down Buck Converter - 5V/3A](https://www.kiwi-electronics.com/nl/ubec-dc-dc-step-down-buck-converter-5v-3a-output-9976) - Stepping down 2S 7.8V to 5V converter used for the 12 servo's and servo driver
 
 [Pi-Juice Zero Hat](https://github.com/PiSupply/PiJuice) - Uninterruptable Power Supply (UPS) for the raspberry pi only, to ensure correct execution
 
