@@ -58,6 +58,8 @@ At the heart of this robot runs a RPi Zero W 2 as main cpu. Its controls 12 SG90
 
 [SG90 Servo](https://www.kiwi-electronics.com/nl/micro-servo-sg90-1-8kg-cm-9g-3018)
 
+[UBEC DC/DC Step-Down Buck Converter - 5V/3A](https://www.kiwi-electronics.com/nl/ubec-dc-dc-step-down-buck-converter-5v-3a-output-9976)
+
 [Pi-Juice Zero Hat](https://github.com/PiSupply/PiJuice)
 
 [2S LiPo 1300 mAh](https://www.velleman.eu/products/view/?id=434062)
