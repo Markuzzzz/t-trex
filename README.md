@@ -90,7 +90,7 @@ sudo apt install -y python3-setuptools
 sudo apt install -y python3-rpi.gpio
 
 # Evdev 
-sudo apt install python3-dev && sudo apt install python3-pip && sudo pip install evdev
+sudo pip install evdev
 
 # Pijuice Zero
 sudo apt-get install pijuice-base
