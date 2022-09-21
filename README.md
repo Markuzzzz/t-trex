@@ -70,7 +70,7 @@ At the heart of this robot runs a RPi Zero W 2 as main cpu. Its controls 12 SG90
 
 [Pi-Juice Zero Hat](https://github.com/PiSupply/PiJuice) - Uninterruptable Power Supply (UPS) for the raspberry pi only, to ensure correct execution
 
-[2S LiPo 1300 mAh](https://www.velleman.eu/products/view/?id=434062) - Battery system used for servo system
+[2S LiPo 1300 mAh](https://www.velleman.eu/products/view/?id=434062) - Battery used for servo system with built-in Battery Management System (BMS)
 
 [1S LiPo 500 mAh](https://uk.pi-supply.com/products/lithium-ion-polymer-battery-3-7v-500mah) - Battery system used for PiJuice and Raspberry Pi Zero 2 W
 
